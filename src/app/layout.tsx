@@ -25,7 +25,9 @@ export default function RootLayout({
   return (
     <html lang="fr" data-scroll-behavior="smooth">
       <body className={`${inter.variable} antialiased`}>
-        <SmoothScroll>{children}</SmoothScroll>
+        <SmoothScroll>
+          <main>{children}</main>
+        </SmoothScroll>
       </body>
     </html>
   )
