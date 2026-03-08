@@ -1,0 +1,23 @@
+@layer base {
+  html,
+  body {
+    @apply bg-bg-1 font-[inter] text-base text-text font-normal h-full min-h-screen scroll-smooth;
+  }
+
+  header,
+  footer {
+    @apply shrink-0;
+  }
+
+  main {
+    @apply flex flex-1 flex-col;
+  }
+
+  strong {
+    @apply font-semibold;
+  }
+
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary rounded-2xl;
+  }
+}
