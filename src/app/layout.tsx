@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="fr" data-scroll-behavior="smooth">
       <body className={`${inter.variable} antialiased`}>
         <SmoothScroll>
-          <SkipLink />
+          <SkipLink href="#content" />
           <main id="content">{children}</main>
         </SmoothScroll>
       </body>
