@@ -1,6 +1,6 @@
 import { cn } from '@/lib/cn'
 
-interface ContainerProps {
+type ContainerProps = {
   children: React.ReactNode
   size: keyof typeof sizes
   className?: string
@@ -16,7 +16,7 @@ export default function Container({
   children,
   size,
   className,
-}: ContainerProps) {
+}: Readonly<ContainerProps>) {
   return (
     <div className={cn('w-full mx-auto px-6', sizes[size], className)}>
       {children}

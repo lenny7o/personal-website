@@ -8,12 +8,12 @@ import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { getTranslations } from 'next-intl/server'
 
-interface LayoutProps {
+type LayoutProps = {
   children: React.ReactNode
   params: Promise<{ locale: string }>
 }
 
-interface GenerateMetadataProps {
+type GenerateMetadataProps = {
   params: Promise<{ locale: string }>
 }
 
@@ -25,7 +25,7 @@ const inter = Inter({
 
 export async function generateMetadata({
   params,
-}: GenerateMetadataProps): Promise<Metadata> {
+}: Readonly<GenerateMetadataProps>): Promise<Metadata> {
   const { locale } = await params
   const t = await getTranslations({ locale, namespace: 'HomePage.Metadata' })
 

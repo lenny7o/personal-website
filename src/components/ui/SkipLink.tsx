@@ -1,8 +1,12 @@
 import Link from 'next/link'
 
+type SkipLinkProps = {
+  href?: string
+}
+
 export default function SkipLink({
   href = '#content',
-}: Readonly<{ href: string }>) {
+}: Readonly<SkipLinkProps>) {
   return (
     <Link
       href={href}
