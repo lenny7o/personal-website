@@ -7,13 +7,22 @@ import { useState } from 'react'
 import MobileMenu from './MobileMenu'
 import ToggleMenu from './ToggleMenu'
 import { AnimatePresence } from 'motion/react'
+import { useTranslations } from 'next-intl'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+  const t = useTranslations('Layout.Navigation')
 
   const toggleMenu = () => {
     setIsOpen(!isOpen)
   }
+
+  const links = [
+    { href: '/about', label: t('about') },
+    { href: '/projects', label: t('projects') },
+    { href: '/services', label: t('services') },
+    { href: '/#contact', label: t('contact') },
+  ]
 
   return (
     <nav className="flex flex-col justify-center items-center w-full sm:w-max! sm:gap-8 bg-surface border border-border rounded-4xl pr-3">
@@ -22,12 +31,14 @@ export default function Navbar() {
           <Logo size={40} />
         </Link>
 
-        <DesktopMenu />
+        <DesktopMenu links={links} />
 
         <ToggleMenu isMenuOpen={isOpen} toggleMenu={toggleMenu} />
       </div>
 
-      <AnimatePresence>{isOpen && <MobileMenu />}</AnimatePresence>
+      <AnimatePresence>
+        {isOpen && <MobileMenu links={links} />}
+      </AnimatePresence>
     </nav>
   )
 }

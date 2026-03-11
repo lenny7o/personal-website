@@ -16,7 +16,11 @@ const listVariants = {
   visible: { opacity: 1 },
 }
 
-export default function MobileMenu() {
+type MobileMenuProps = {
+  links: { href: string; label: string }[]
+}
+
+export default function MobileMenu({ links }: Readonly<MobileMenuProps>) {
   return (
     <motion.div
       className="w-full sm:hidden"
@@ -35,10 +39,11 @@ export default function MobileMenu() {
         exit="hidden"
         transition={{ duration: 0.3, ease: 'easeInOut' }}
       >
-        <NavItem href="/about">À propos</NavItem>
-        <NavItem href="/projects">Projets</NavItem>
-        <NavItem href="/services">Services</NavItem>
-        <NavItem href="/#contact">Contact</NavItem>
+        {links.map((link, index) => (
+          <NavItem key={index} href={link.href}>
+            {link.label}
+          </NavItem>
+        ))}
       </motion.ul>
     </motion.div>
   )
