@@ -1,9 +1,24 @@
 {
-  "HomePage": {
-    "title": "Bienvenue sur mon site personnel",
-    "Metadata": {
-      "title": "Accueil",
-      "description": "Site web personnel de Lenny TESTU--CHARPENTIER"
+  "UI": {
+    "Logo": {
+      "alt": "Logo de Lenny TESTU--CHARPENTIER"
+    }
+  },
+  "Layout": {
+    "Navigation": {
+      "Home": "Accueil",
+      "About": "À propos",
+      "Projects": "Projets",
+      "Contact": "Contact"
+    }
+  },
+  "Pages": {
+    "HomePage": {
+      "title": "Bienvenue sur mon site personnel",
+      "Metadata": {
+        "title": "Accueil",
+        "description": "Site web personnel de Lenny TESTU--CHARPENTIER"
+      }
     }
   }
 }

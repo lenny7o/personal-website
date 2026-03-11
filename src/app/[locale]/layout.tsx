@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import SmoothScroll from '@/components/layout/SmoothScroll'
-import SkipLink from '@/components/ui/SkipLink'
-import '@/styles/index.css'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import { notFound } from 'next/navigation'
-import { routing } from '@/i18n/routing'
 import { getTranslations } from 'next-intl/server'
+import { routing } from '@/i18n/routing'
+import SmoothScroll from '@/components/layout/SmoothScroll'
+import Header from '@/components/layout/Navigation/Header'
+import SkipLink from '@/components/ui/SkipLink'
+import '@/styles/index.css'
 
 type LayoutProps = {
   children: React.ReactNode
@@ -27,7 +28,10 @@ export async function generateMetadata({
   params,
 }: Readonly<GenerateMetadataProps>): Promise<Metadata> {
   const { locale } = await params
-  const t = await getTranslations({ locale, namespace: 'HomePage.Metadata' })
+  const t = await getTranslations({
+    locale,
+    namespace: 'Pages.HomePage.Metadata',
+  })
 
   return {
     title: {
@@ -54,6 +58,7 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <SmoothScroll>
             <SkipLink href="#content" />
+            <Header />
             <main id="content">{children}</main>
           </SmoothScroll>
         </NextIntlClientProvider>
