@@ -6,6 +6,7 @@ import { getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
 import SmoothScroll from '@/components/layout/SmoothScroll'
 import Header from '@/components/layout/Navigation/Header'
+import Footer from '@/components/layout/Footer'
 import SkipLink from '@/components/ui/SkipLink'
 import '@/styles/index.css'
 
@@ -58,8 +59,11 @@ export default async function RootLayout({
         <NextIntlClientProvider>
           <SmoothScroll>
             <SkipLink href="#content" />
-            <Header />
-            <main id="content">{children}</main>
+            <div id="root">
+              <Header />
+              <main id="content">{children}</main>
+              <Footer />
+            </div>
           </SmoothScroll>
         </NextIntlClientProvider>
       </body>

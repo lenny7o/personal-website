@@ -6,10 +6,13 @@
   },
   "Layout": {
     "Navigation": {
-      "Home": "Accueil",
-      "About": "À propos",
-      "Projects": "Projets",
-      "Contact": "Contact"
+      "about": "À propos",
+      "projects": "Projets",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "Footer": {
+      "legal": "Mentions légales"
     }
   },
   "Pages": {

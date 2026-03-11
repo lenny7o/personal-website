@@ -4,6 +4,10 @@
     @apply bg-bg font-[inter] text-base text-text font-normal h-full min-h-screen scroll-smooth;
   }
 
+  #root {
+    @apply flex flex-col min-h-screen;
+  }
+
   header,
   footer {
     @apply shrink-0;
