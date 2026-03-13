@@ -2,6 +2,9 @@
   "UI": {
     "Logo": {
       "alt": "Logo de Lenny TESTU--CHARPENTIER"
+    },
+    "ProjectCard": {
+      "viewProject": "Voir le projet"
     }
   },
   "Layout": {
@@ -23,6 +26,9 @@
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum.",
         "primaryButton": "Travaillons ensemble",
         "secondaryButton": "Voir mes projets"
+      },
+      "Projects": {
+        "title": "Mes projets"
       },
       "Metadata": {
         "title": "Accueil",

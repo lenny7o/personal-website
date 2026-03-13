@@ -21,7 +21,7 @@ export default function Button({
   Icon,
   className,
   ...props
-}: ButtonProps) {
+}: Readonly<ButtonProps>) {
   return (
     <button className={cn(base, variants[variant], className)} {...props}>
       {children}
