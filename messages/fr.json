@@ -17,7 +17,13 @@
   },
   "Pages": {
     "HomePage": {
-      "title": "Bienvenue sur mon site personnel",
+      "Hero": {
+        "subtitle": "Hey, moi c'est Lenny.",
+        "title": "Un jeune de 16 ans passionné par l'entrepreneuriat et la tech.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum.",
+        "primaryButton": "Travaillons ensemble",
+        "secondaryButton": "Voir mes projets"
+      },
       "Metadata": {
         "title": "Accueil",
         "description": "Site web personnel de Lenny TESTU--CHARPENTIER"
