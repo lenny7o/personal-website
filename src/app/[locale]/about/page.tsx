@@ -3,6 +3,7 @@ import HeroSection from './_components/HeroSection'
 import { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import FactsSection from './_components/FactsSection'
+import PathSection from './_components/PathSection'
 
 export async function generateMetadata({
   params,
@@ -23,8 +24,9 @@ export default function AboutPage() {
   return (
     <>
       <HeroSection />
-      <div className="bg-primary w-full h-min rounded-4xl py-10 sm:py-15 mt-60">
+      <div className="bg-primary w-full h-min rounded-4xl py-10 sm:py-40 mt-60">
         <FactsSection />
+        <PathSection />
       </div>
     </>
   )

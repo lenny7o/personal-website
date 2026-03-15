@@ -53,6 +53,39 @@
         "primaryButton": "Me contacter",
         "secondaryButton": "Découvrir mon parcours"
       },
+      "Facts": {
+        "nameAndAge": "Lenny TESTU--CHARPENTIER, 16 ans",
+        "location": "Normandie, France",
+        "skills": {
+          "title": "Compétences",
+          "programming": "Programmation (Python, JavaScript)",
+          "webDevelopment": "Développement web (Next.js)",
+          "uiuxDesign": "UI/UX Design",
+          "projectManagement": "Gestion de projets"
+        },
+        "personality": {
+          "title": "Personnalité",
+          "calm": "Calme",
+          "serious": "Sérieux",
+          "sociable": "Sociable"
+        },
+        "languages": {
+          "title": "Langues",
+          "FR": "Français (Natif)",
+          "EN": "Anglais (B1)"
+        },
+        "passions": {
+          "title": "Passions",
+          "tech": "Tech",
+          "entrepreneurship": "Entrepreneuriat",
+          "personalDevelopment": "Développement personnel",
+          "sport": "Sport",
+          "adventuresAndTravels": "Aventures et voyages",
+          "music": "Musique"
+        },
+        "quote": "Apprendre, évoluer et me dépasser chaque jour : ma philosophie pour atteindre mes objectifs et cultiver la meilleure version de moi-même.",
+        "goal": "Devenir un entrepreneur tech"
+      },
       "Metadata": {
         "title": "À propos",
         "description": "En savoir plus sur Lenny TESTU--CHARPENTIER, son parcours, ses passions et comment le contacter."
