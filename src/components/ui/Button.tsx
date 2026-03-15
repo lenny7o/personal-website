@@ -5,6 +5,7 @@ type ButtonProps = {
   children: React.ReactNode
   variant?: keyof typeof variants
   Icon?: IconType
+  onClick?: () => void
   className?: string
 }
 
@@ -20,11 +21,16 @@ export default function Button({
   children,
   variant = 'primary',
   Icon,
+  onClick,
   className,
   ...props
 }: Readonly<ButtonProps>) {
   return (
-    <button className={cn(base, variants[variant], className)} {...props}>
+    <button
+      className={cn(base, variants[variant], className)}
+      onClick={onClick}
+      {...props}
+    >
       {children}
       {Icon && (
         <Icon

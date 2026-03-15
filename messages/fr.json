@@ -115,6 +115,15 @@
         "title": "À propos",
         "description": "En savoir plus sur Lenny TESTU--CHARPENTIER, son parcours, ses passions et comment le contacter."
       }
+    },
+    "NotFound": {
+      "title": "Page non trouvée",
+      "text": "La page que vous recherchez n'existe pas ou n'est plus disponible.",
+      "button": "Retourner à l'accueil"
+    },
+    "Error": {
+      "title": "Oups, une erreur est survenue !",
+      "button": "Réessayer"
     }
   },
   "DefaultMetadata": {
