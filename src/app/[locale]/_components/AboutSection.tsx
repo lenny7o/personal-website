@@ -13,9 +13,9 @@ export default function AboutSection() {
         size="lg"
         className="flex flex-col items-start sm:flex-row gap-10"
       >
-        <div className="hidden sm:block! h-130 flex-1 rounded-2xl overflow-hidden">
+        <div className="hidden sm:block! h-130 flex-1 rounded-2xl overflow-hidden border border-border">
           <Image
-            src="/images/about.png"
+            src="/illustrations/aboutme.svg"
             alt="À propos"
             width={300}
             height={500}
