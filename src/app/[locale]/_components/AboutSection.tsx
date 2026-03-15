@@ -1,5 +1,6 @@
 import Container from '@/components/layout/Container'
 import Button from '@/components/ui/Button'
+import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
@@ -25,15 +26,23 @@ export default function AboutSection() {
         <div className="flex flex-col justify-between h-130 flex-1">
           <div>
             <h2 className="text-4xl font-semibold">{t('title')}</h2>
-            <div className="flex items-center gap-5 mt-7 text-text-muted">
-              <FiGithub size={20} />
-              <FiLinkedin size={20} />
-              <FiMail size={20} />
+            <div className="flex items-center gap-1 mt-5 text-text-muted">
+              <Link href="/" className="p-2">
+                <FiGithub size={20} />
+              </Link>
+              <Link href="/" className="p-2">
+                <FiLinkedin size={20} />
+              </Link>
+              <Link href="/" className="p-2">
+                <FiMail size={20} />
+              </Link>
             </div>
             <p className="text-lg text-text-muted mt-10">{t('text')}</p>
           </div>
           <div className="mt-10">
-            <Button variant="primary">{t('button')}</Button>
+            <Link href="/about">
+              <Button variant="primary">{t('button')}</Button>
+            </Link>
           </div>
         </div>
       </Container>

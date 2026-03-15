@@ -28,7 +28,8 @@
         "secondaryButton": "See my projects"
       },
       "Projects": {
-        "title": "My Projects"
+        "title": "My Projects",
+        "button": "See all my projects"
       },
       "About": {
         "title": "About me",

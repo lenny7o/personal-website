@@ -9,7 +9,16 @@ export default function SmoothScroll({
 }: Readonly<SmoothScrollProps>) {
   return (
     <>
-      <ReactLenis root>{children}</ReactLenis>
+      <ReactLenis
+        options={{
+          anchors: {
+            offset: -160,
+          },
+        }}
+        root
+      >
+        {children}
+      </ReactLenis>
     </>
   )
 }

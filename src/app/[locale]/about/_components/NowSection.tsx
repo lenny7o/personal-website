@@ -1,6 +1,7 @@
 import Container from '@/components/layout/Container'
 import Button from '@/components/ui/Button'
 import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 
 export default function NowSection() {
   const t = useTranslations('Pages.About.Now')
@@ -10,9 +11,11 @@ export default function NowSection() {
       <Container size="md" className="text-center">
         <h2 className="text-4xl font-semibold">{t('title')}</h2>
         <p className="text-lg text-text-muted mt-7">{t('text')}</p>
-        <Button variant="primary" className="mt-10">
-          {t('button')}
-        </Button>
+        <Link href="/projects">
+          <Button variant="primary" className="mt-10">
+            {t('button')}
+          </Button>
+        </Link>
       </Container>
     </section>
   )

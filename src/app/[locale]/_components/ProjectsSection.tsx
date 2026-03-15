@@ -1,7 +1,10 @@
 import Container from '@/components/layout/Container'
+import Button from '@/components/ui/Button'
 import ProjectCard from '@/components/ui/ProjectCard'
 import projects from '@/data/projects'
+import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
+import { FiArrowRight } from 'react-icons/fi'
 
 export default function ProjectsSection() {
   const t = useTranslations('Pages.HomePage.Projects')
@@ -20,6 +23,13 @@ export default function ProjectsSection() {
               link={project.link}
             />
           ))}
+        </div>
+        <div className="flex items-center justify-center w-full mt-15">
+          <Link href="/projects">
+            <Button variant="secondary" Icon={FiArrowRight}>
+              {t('button')}
+            </Button>
+          </Link>
         </div>
       </Container>
     </section>

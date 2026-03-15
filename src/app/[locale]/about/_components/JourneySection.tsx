@@ -6,7 +6,7 @@ export default function JourneySection() {
   const t = useTranslations('Pages.About.Journey')
 
   return (
-    <section className="flex items-center mt-60">
+    <section id="journey" className="flex items-center mt-60">
       <Container size="md">
         <h2 className="text-4xl text-text-inverse font-semibold text-center">
           {t('title')}

@@ -36,6 +36,7 @@ export default function Button({
         <Icon
           className="ml-2 -rotate-45 group-hover:rotate-0 transition-transform"
           size={20}
+          strokeWidth={2.5}
           aria-hidden="true"
         />
       )}

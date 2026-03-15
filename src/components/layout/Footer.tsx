@@ -12,10 +12,16 @@ export default function Footer() {
         size="lg"
         className="text-text-muted p-7 flex items-center justify-between"
       >
-        <div className="flex items-center gap-5">
-          <FiGithub size={20} />
-          <FiLinkedin size={20} />
-          <FiMail size={20} />
+        <div className="flex items-center gap-1">
+          <Link href="/" className="p-2">
+            <FiGithub size={20} />
+          </Link>
+          <Link href="/" className="p-2">
+            <FiLinkedin size={20} />
+          </Link>
+          <Link href="/" className="p-2">
+            <FiMail size={20} />
+          </Link>
         </div>
         <Link href="/legal" className="text-sm py-2 px-3">
           {t('legal')}

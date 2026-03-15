@@ -1,5 +1,6 @@
 import Container from '@/components/layout/Container'
 import Button from '@/components/ui/Button'
+import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
 
 export default function HeroSection() {
@@ -12,8 +13,12 @@ export default function HeroSection() {
           {t('title')}
         </h1>
         <div className="flex flex-col justify-center sm:flex-row sm:items-center gap-3 mt-10">
-          <Button variant="primary">{t('primaryButton')}</Button>
-          <Button variant="secondary">{t('secondaryButton')}</Button>
+          <Link href="/#contact">
+            <Button variant="primary">{t('primaryButton')}</Button>
+          </Link>
+          <Link href="#journey">
+            <Button variant="secondary">{t('secondaryButton')}</Button>
+          </Link>
         </div>
       </Container>
     </section>

@@ -1,7 +1,7 @@
 @layer base {
   html,
   body {
-    @apply bg-bg font-[inter] text-base text-text font-normal h-full min-h-screen scroll-smooth;
+    @apply bg-bg font-[inter] text-base text-text font-normal h-full min-h-screen;
   }
 
   #root {

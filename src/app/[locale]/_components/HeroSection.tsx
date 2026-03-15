@@ -1,6 +1,8 @@
 import Container from '@/components/layout/Container'
 import Button from '@/components/ui/Button'
+import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
+import { FiArrowRight } from 'react-icons/fi'
 
 export default function HeroSection() {
   const t = useTranslations('Pages.HomePage.Hero')
@@ -14,8 +16,14 @@ export default function HeroSection() {
         </h1>
         <p className="text-lg text-text-muted mt-7">{t('text')}</p>
         <div className="flex flex-col sm:flex-row sm:items-center gap-3 mt-10">
-          <Button variant="primary">{t('primaryButton')}</Button>
-          <Button variant="secondary">{t('secondaryButton')}</Button>
+          <Link href="/#contact">
+            <Button variant="primary">{t('primaryButton')}</Button>
+          </Link>
+          <Link href="/projects">
+            <Button variant="secondary" Icon={FiArrowRight}>
+              {t('secondaryButton')}
+            </Button>
+          </Link>
         </div>
       </Container>
     </section>
