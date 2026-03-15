@@ -108,6 +108,9 @@
           }
         ]
       },
+      "Journey": {
+        "title": "My journey"
+      },
       "Metadata": {
         "title": "About",
         "description": "Learn more about Lenny TESTU--CHARPENTIER, his journey, his passions and how to contact him."

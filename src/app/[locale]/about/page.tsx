@@ -3,7 +3,7 @@ import HeroSection from './_components/HeroSection'
 import { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import FactsSection from './_components/FactsSection'
-import PathSection from './_components/PathSection'
+import PathSection from './_components/JourneySection'
 import NowSection from './_components/NowSection'
 import ValuesSection from './_components/ValuesSection'
 

@@ -1,12 +1,17 @@
 import Container from '@/components/layout/Container'
+import Timeline from './Timeline'
+import { useTranslations } from 'next-intl'
 
-export default function PathSection({}) {
+export default function JourneySection() {
+  const t = useTranslations('Pages.About.Journey')
+
   return (
     <section className="flex items-center mt-60">
-      <Container size="lg">
+      <Container size="md">
         <h2 className="text-4xl text-text-inverse font-semibold text-center">
-          Mon parcours
+          {t('title')}
         </h2>
+        <Timeline />
       </Container>
     </section>
   )

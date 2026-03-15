@@ -108,6 +108,9 @@
           }
         ]
       },
+      "Journey": {
+        "title": "Mon parcours"
+      },
       "Metadata": {
         "title": "À propos",
         "description": "En savoir plus sur Lenny TESTU--CHARPENTIER, son parcours, ses passions et comment le contacter."
