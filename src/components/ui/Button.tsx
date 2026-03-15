@@ -1,9 +1,10 @@
 import { cn } from '@/lib/cn'
+import { IconType } from 'react-icons'
 
 type ButtonProps = {
   children: React.ReactNode
   variant?: keyof typeof variants
-  Icon?: React.FC<React.SVGProps<SVGSVGElement>>
+  Icon?: IconType
   className?: string
 }
 
@@ -28,8 +29,7 @@ export default function Button({
       {Icon && (
         <Icon
           className="ml-2 -rotate-45 group-hover:rotate-0 transition-transform"
-          height={20}
-          width={20}
+          size={20}
           aria-hidden="true"
         />
       )}
