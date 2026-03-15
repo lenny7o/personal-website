@@ -91,6 +91,23 @@
         "text": "Today, I've gained a lot of maturity and learned a lot of things. I am currently working on several exciting projects and learning new skills.",
         "button": "Discover my projects"
       },
+      "Values": {
+        "title": "My values",
+        "values": [
+          {
+            "name": "Passion",
+            "description": "I am passionate about technology and entrepreneurship, and I fully invest in everything I do."
+          },
+          {
+            "name": "Continuous Learning",
+            "description": "I believe in the importance of constantly learning and developing to achieve my goals."
+          },
+          {
+            "name": "Simplicity",
+            "description": "I like clear and efficient things, and I go straight to the point."
+          }
+        ]
+      },
       "Metadata": {
         "title": "About",
         "description": "Learn more about Lenny TESTU--CHARPENTIER, his journey, his passions and how to contact him."

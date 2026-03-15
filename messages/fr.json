@@ -91,6 +91,23 @@
         "text": "Aujourd'hui, j'ai pris beaucoup en maturité et j'ai appris beaucoup de choses. Je suis actuellement en train de travailler sur plusieurs projets passionnants et d'apprendre de nouvelles compétences.",
         "button": "Découvrir mes projets"
       },
+      "Values": {
+        "title": "Mes valeurs",
+        "values": [
+          {
+            "name": "Passion",
+            "description": "Je suis passionné par la technologie et l'entrepreneuriat, et je m'investis pleinement dans tout ce que je fais."
+          },
+          {
+            "name": "Apprentissage continu",
+            "description": "Je crois en l'importance d'apprendre constamment et de me développer pour atteindre mes objectifs."
+          },
+          {
+            "name": "Simplicité",
+            "description": "J’aime les choses claires et efficaces, et je vais droit au but."
+          }
+        ]
+      },
       "Metadata": {
         "title": "À propos",
         "description": "En savoir plus sur Lenny TESTU--CHARPENTIER, son parcours, ses passions et comment le contacter."
