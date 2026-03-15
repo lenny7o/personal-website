@@ -11,7 +11,7 @@
     "Navigation": {
       "about": "About",
       "projects": "Projects",
-      "services": "Services",
+      "blog": "Blog",
       "contact": "Contact"
     },
     "Footer": {
@@ -114,6 +114,15 @@
       "Metadata": {
         "title": "About",
         "description": "Learn more about Lenny TESTU--CHARPENTIER, his journey, his passions and how to contact him."
+      }
+    },
+    "Blog": {
+      "title": "This page is not available",
+      "text": "The blog is not yet available, but it will be soon !<br />In the meantime, feel free to check out my projects or contact me.",
+      "button": "Return to homepage",
+      "Metadata": {
+        "title": "Blog",
+        "description": "Discover the thoughts, advice and experiences of Lenny TESTU--CHARPENTIER through his blog."
       }
     },
     "NotFound": {

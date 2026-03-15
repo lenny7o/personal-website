@@ -7,7 +7,7 @@ export default function NotFoundPage() {
   const t = useTranslations('Pages.NotFound')
 
   return (
-    <section className="h-screen flex items-center justify-center">
+    <section className="min-h-screen flex items-center justify-center">
       <Container size="md" className="flex flex-col text-center items-center">
         <h1 className="text-3xl font-semibold">{t('title')}</h1>
         <p className="text-text-muted mt-7 text-lg">{t('text')}</p>

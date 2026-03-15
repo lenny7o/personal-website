@@ -11,7 +11,7 @@
     "Navigation": {
       "about": "À propos",
       "projects": "Projets",
-      "services": "Services",
+      "blog": "Blog",
       "contact": "Contact"
     },
     "Footer": {
@@ -114,6 +114,15 @@
       "Metadata": {
         "title": "À propos",
         "description": "En savoir plus sur Lenny TESTU--CHARPENTIER, son parcours, ses passions et comment le contacter."
+      }
+    },
+    "Blog": {
+      "title": "Cette page n'est pas disponible",
+      "text": "Le blog n'est pas encore disponible, mais il le sera bientôt !<br />En attendant, n'hésitez pas à consulter mes projets ou à me contacter.",
+      "button": "Retourner à l'accueil",
+      "Metadata": {
+        "title": "Blog",
+        "description": "Découvrez les réflexions, les conseils et les expériences de Lenny TESTU--CHARPENTIER à travers son blog."
       }
     },
     "NotFound": {

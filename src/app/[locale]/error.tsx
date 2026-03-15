@@ -18,7 +18,7 @@ export default function Error({ error, reset }: ErrorProps) {
   }, [error])
 
   return (
-    <section className="h-screen flex items-center justify-center">
+    <section className="min-h-screen flex items-center justify-center">
       <Container
         size="md"
         className="flex flex-col gap-10 text-center items-center"
