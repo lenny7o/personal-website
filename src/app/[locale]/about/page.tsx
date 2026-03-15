@@ -4,6 +4,7 @@ import { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import FactsSection from './_components/FactsSection'
 import PathSection from './_components/PathSection'
+import NowSection from './_components/NowSection'
 
 export async function generateMetadata({
   params,
@@ -28,6 +29,7 @@ export default function AboutPage() {
         <FactsSection />
         <PathSection />
       </div>
+      <NowSection />
     </>
   )
 }
