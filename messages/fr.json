@@ -39,6 +39,17 @@
         "title": "Accueil",
         "description": "Site web personnel de Lenny TESTU--CHARPENTIER"
       }
+    },
+    "Projects": {
+      "title": "Tous mes projets",
+      "Metadata": {
+        "title": "Projets",
+        "description": "Découvrez tous les projets de Lenny TESTU--CHARPENTIER"
+      }
     }
+  },
+  "DefaultMetadata": {
+    "title": "Lenny TESTU--CHARPENTIER",
+    "description": "Bienvenue sur le site personnel de Lenny TESTU--CHARPENTIER, un jeune passionné par l'entrepreneuriat et la technologie. Découvrez ses projets, son parcours et comment le contacter."
   }
 }

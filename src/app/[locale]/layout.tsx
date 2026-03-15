@@ -4,6 +4,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import { notFound } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
 import { routing } from '@/i18n/routing'
+import { GenerateMetadataProps } from '@/types/generateMetadataProps'
 import SmoothScroll from '@/components/layout/SmoothScroll'
 import Header from '@/components/layout/Navigation/Header'
 import Footer from '@/components/layout/Footer'
@@ -12,10 +13,6 @@ import '@/styles/index.css'
 
 type LayoutProps = {
   children: React.ReactNode
-  params: Promise<{ locale: string }>
-}
-
-type GenerateMetadataProps = {
   params: Promise<{ locale: string }>
 }
 
@@ -31,7 +28,7 @@ export async function generateMetadata({
   const { locale } = await params
   const t = await getTranslations({
     locale,
-    namespace: 'Pages.HomePage.Metadata',
+    namespace: 'DefaultMetadata',
   })
 
   return {
