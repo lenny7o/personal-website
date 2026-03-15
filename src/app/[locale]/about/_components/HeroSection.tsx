@@ -1,0 +1,21 @@
+import Container from '@/components/layout/Container'
+import Button from '@/components/ui/Button'
+import { useTranslations } from 'next-intl'
+
+export default function HeroSection() {
+  const t = useTranslations('Pages.About.Hero')
+
+  return (
+    <section id="about" className="flex items-center mt-60">
+      <Container size="md">
+        <h1 className="text-4xl sm:text-6xl font-semibold mt-4 text-center">
+          {t('title')}
+        </h1>
+        <div className="flex flex-col justify-center sm:flex-row sm:items-center gap-3 mt-10">
+          <Button variant="primary">{t('primaryButton')}</Button>
+          <Button variant="secondary">{t('secondaryButton')}</Button>
+        </div>
+      </Container>
+    </section>
+  )
+}

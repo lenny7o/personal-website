@@ -46,10 +46,21 @@
         "title": "Projects",
         "description": "Discover all projects by Lenny TESTU--CHARPENTIER"
       }
+    },
+    "About": {
+      "Hero": {
+        "title": "About me",
+        "primaryButton": "Contact me",
+        "secondaryButton": "Discover my journey"
+      },
+      "Metadata": {
+        "title": "About",
+        "description": "Learn more about Lenny TESTU--CHARPENTIER, his journey, his passions and how to contact him."
+      }
     }
   },
   "DefaultMetadata": {
     "title": "Lenny TESTU--CHARPENTIER",
-    "description": "Bienvenue sur le site personnel de Lenny TESTU--CHARPENTIER, un jeune passionné par l'entrepreneuriat et la technologie. Découvrez ses projets, son parcours et comment le contacter."
+    "description": "Welcome to the personal website of Lenny TESTU--CHARPENTIER, a young person passionate about entrepreneurship and technology. Discover his projects, his journey and how to contact him."
   }
 }
