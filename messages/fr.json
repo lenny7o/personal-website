@@ -30,6 +30,11 @@
       "Projects": {
         "title": "Mes projets"
       },
+      "About": {
+        "title": "À propos de moi",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque pretium mauris, quis tristique tortor rhoncus id. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+        "button": "En savoir plus"
+      },
       "Metadata": {
         "title": "Accueil",
         "description": "Site web personnel de Lenny TESTU--CHARPENTIER"
