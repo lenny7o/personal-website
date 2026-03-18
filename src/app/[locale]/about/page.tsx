@@ -6,6 +6,7 @@ import FactsSection from './_components/FactsSection'
 import PathSection from './_components/JourneySection'
 import NowSection from './_components/NowSection'
 import ValuesSection from './_components/ValuesSection'
+import ContactSection from './_components/ContactSection'
 
 export async function generateMetadata({
   params,
@@ -32,6 +33,7 @@ export default function AboutPage() {
       </div>
       <NowSection />
       <ValuesSection />
+      <ContactSection />
     </>
   )
 }

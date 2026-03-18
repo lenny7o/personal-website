@@ -4,6 +4,7 @@ import AboutSection from './_components/AboutSection'
 import { GenerateMetadataProps } from '@/types/generateMetadataProps'
 import { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
+import ContactSection from './_components/ContactSection'
 
 export async function generateMetadata({
   params,
@@ -26,6 +27,7 @@ export default function HomePage() {
       <HeroSection />
       <ProjectsSection />
       <AboutSection />
+      <ContactSection />
     </>
   )
 }

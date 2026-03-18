@@ -7,7 +7,7 @@ export default function Footer() {
   const t = useTranslations('Layout.Footer')
 
   return (
-    <footer className="mt-60">
+    <footer className="mt-40 sm:mt-60">
       <Container
         size="lg"
         className="text-text-muted p-7 flex items-center justify-between"

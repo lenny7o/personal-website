@@ -14,10 +14,14 @@ export default function HeroSection() {
         </h1>
         <div className="flex flex-col justify-center sm:flex-row sm:items-center gap-3 mt-10">
           <Link href="/#contact">
-            <Button variant="primary">{t('primaryButton')}</Button>
+            <Button variant="primary" className="w-full">
+              {t('primaryButton')}
+            </Button>
           </Link>
           <Link href="#journey">
-            <Button variant="secondary">{t('secondaryButton')}</Button>
+            <Button variant="secondary" className="w-full">
+              {t('secondaryButton')}
+            </Button>
           </Link>
         </div>
       </Container>

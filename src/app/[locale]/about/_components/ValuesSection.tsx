@@ -8,7 +8,7 @@ export default function ValuesSection() {
   const t = useTranslations('Pages.About.Values')
 
   return (
-    <section className="flex items-center mt-60">
+    <section className="flex items-center mt-40 sm:mt-60">
       <Container
         size="lg"
         className="flex flex-col sm:flex-row items-start gap-10 sm:gap-25"

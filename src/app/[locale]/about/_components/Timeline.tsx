@@ -47,7 +47,7 @@ export default function Timeline() {
   })
 
   return (
-    <div ref={containerRef} className="relative w-full pt-20 pb-40 mt-25">
+    <div ref={containerRef} className="relative w-full pt-20 pb-40 mt-15">
       <div className="absolute left-0 top-0 w-6 h-full flex justify-center">
         <div className="w-1 h-full bg-[#414141]" />
         <motion.div

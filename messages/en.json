@@ -21,10 +21,9 @@
   "Pages": {
     "HomePage": {
       "Hero": {
-        "subtitle": "Hi, I'm Lenny.",
-        "title": "A 16-year-old passionate about entrepreneurship and technology.",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum.",
-        "primaryButton": "Let's work together",
+        "title": "Hey, I'm Lenny.",
+        "text": "A 16-year-old passionate about entrepreneurship and technology. Welcome to my personal website where I share my projects, journey, and reflections.",
+        "primaryButton": "Contact me",
         "secondaryButton": "See my projects"
       },
       "Projects": {
@@ -35,6 +34,27 @@
         "title": "About me",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque pretium mauris, quis tristique tortor rhoncus id. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
         "button": "Learn more"
+      },
+      "Contact": {
+        "title": "Contact me",
+        "text": "You have a project in mind or you just want to discuss? Don't hesitate to contact me!",
+        "button": "Send me a message",
+        "faq1": {
+          "question": "What types of projects do you work on?",
+          "answer": "I work on a variety of projects, from web development to content creation, passing through entrepreneurship. I am always looking for new ideas and challenges to tackle."
+        },
+        "faq2": {
+          "question": "Are you open to collaborations?",
+          "answer": "Absolutely! I am always interested in collaborating with other technology and entrepreneurship enthusiasts. Don't hesitate to contact me if you have a project idea or if you just want to discuss."
+        },
+        "faq3": {
+          "question": "How can I contact you?",
+          "answer": "You can contact me by email at contact@lennytc.me"
+        },
+        "faq4": {
+          "question": "What is your workflow?",
+          "answer": "My workflow starts with a phase of understanding the project and the client's needs. Then, I create a detailed plan and start the development. Once the project is completed, I test it and deliver it to the client."
+        }
       },
       "Metadata": {
         "title": "Home",
@@ -109,6 +129,11 @@
       },
       "Journey": {
         "title": "My journey"
+      },
+      "Contact": {
+        "title": "Contact me",
+        "text": "You have a project in mind or you just want to discuss? Don't hesitate to contact me!",
+        "button": "Send me a message"
       },
       "Metadata": {
         "title": "About",

@@ -12,9 +12,9 @@ import {
   FiMusic,
   FiUsers,
 } from 'react-icons/fi'
-import { FaHeartCircleBolt, FaQuoteRight } from 'react-icons/fa6'
+import { FaHeartCircleBolt } from 'react-icons/fa6'
 import Label from '@/components/ui/Label'
-import { TbRun, TbTargetArrow } from 'react-icons/tb'
+import { TbRun } from 'react-icons/tb'
 import { MdOutlineTranslate } from 'react-icons/md'
 import { RiNextjsLine } from 'react-icons/ri'
 import { BsStars } from 'react-icons/bs'

@@ -21,10 +21,9 @@
   "Pages": {
     "HomePage": {
       "Hero": {
-        "subtitle": "Hey, moi c'est Lenny.",
-        "title": "Un jeune de 16 ans passionné par l'entrepreneuriat et la tech.",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel sapien eget nunc efficitur varius. Sed at felis a enim efficitur bibendum.",
-        "primaryButton": "Travaillons ensemble",
+        "title": "Hey, moi c'est Lenny.",
+        "text": "Un jeune de 16 ans passionné par l'entrepreneuriat et la technologie. Bienvenue sur mon site personnel où je partage mes projets, mon parcours et mes réflexions.",
+        "primaryButton": "Me contacter",
         "secondaryButton": "Voir mes projets"
       },
       "Projects": {
@@ -35,6 +34,27 @@
         "title": "À propos de moi",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque pretium mauris, quis tristique tortor rhoncus id. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
         "button": "En savoir plus"
+      },
+      "Contact": {
+        "title": "Contactez-moi",
+        "text": "Vous avez un projet en tête ou vous voulez simplement discuter ? N'hésitez pas à me contacter !",
+        "button": "M'envoyer un message",
+        "faq1": {
+          "question": "Quels types de projets réalises-tu ?",
+          "answer": "Je travaille sur une variété de projets, allant du développement web à la création de contenu en passant par l'entrepreneuriat. Je suis toujours à la recherche de nouvelles idées et de nouveaux défis à relever."
+        },
+        "faq2": {
+          "question": "Es-tu ouvert à des collaborations ?",
+          "answer": "Absolument ! Je suis toujours intéressé par des collaborations avec d'autres passionnés de technologie et d'entrepreneuriat. N'hésitez pas à me contacter si vous avez une idée de projet ou si vous souhaitez simplement discuter."
+        },
+        "faq3": {
+          "question": "Comment puis-je te contacter ?",
+          "answer": "Vous pouvez me contacter par email à l'adresse contact@lennytc.me"
+        },
+        "faq4": {
+          "question": "Quel est ton processus de travail ?",
+          "answer": "Mon processus de travail commence par une phase de compréhension du projet et des besoins du client. Ensuite, je crée un plan détaillé et je commence le développement. Une fois le projet terminé, je le teste et je le livre au client."
+        }
       },
       "Metadata": {
         "title": "Accueil",
@@ -109,6 +129,11 @@
       },
       "Journey": {
         "title": "Mon parcours"
+      },
+      "Contact": {
+        "title": "Contactez-moi",
+        "text": "Vous avez un projet en tête ou vous voulez simplement discuter ? N'hésitez pas à me contacter !",
+        "button": "M'envoyer un message"
       },
       "Metadata": {
         "title": "À propos",

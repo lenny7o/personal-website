@@ -9,7 +9,7 @@ export default function AboutSection() {
   const t = useTranslations('Pages.HomePage.About')
 
   return (
-    <section className="flex items-center mt-60">
+    <section className="flex items-center mt-40 sm:mt-60">
       <Container
         size="lg"
         className="flex flex-col items-start sm:flex-row gap-10"
