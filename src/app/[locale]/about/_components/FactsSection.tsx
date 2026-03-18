@@ -80,16 +80,6 @@ export default function FactsSection() {
             <Label Icon={FiMusic} text={t('passions.music')} />
           </div>
         </Card>
-        <Card className="sm:col-span-2">
-          <Icon Icon={FaQuoteRight} size={40} />
-          <h3 className="text-lg text-text-muted font-semibold mt-3">
-            &quot;{t('quote')}&quot;
-          </h3>
-        </Card>
-        <Card>
-          <Icon Icon={TbTargetArrow} size={40} />
-          <h3 className="text-xl font-semibold mt-3">{t('goal')}</h3>
-        </Card>
       </Container>
     </section>
   )
