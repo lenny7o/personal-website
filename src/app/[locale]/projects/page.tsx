@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import { GenerateMetadataProps } from '@/types/generateMetadataProps'
 import { useTranslations } from 'next-intl'
 import { getTranslations } from 'next-intl/server'
+import AnimatedText from '../../../components/ui/AnimatedText'
 
 export async function generateMetadata({
   params,
@@ -27,7 +28,11 @@ export default function ProjectsPage() {
   return (
     <section className="flex items-center mt-60">
       <Container size="lg">
-        <h2 className="text-4xl font-semibold text-center">{t('title')}</h2>
+        <h2 className="text-4xl font-semibold text-center">
+          <AnimatedText
+            content={[{ text: t('title'), order: 1, color: 'normal' }]}
+          />
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 mt-10">
           {projects.map((project) => (
             <ProjectCard
