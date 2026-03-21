@@ -4,15 +4,18 @@ import Label from '@/components/ui/Label'
 import { FaRegCalendar } from 'react-icons/fa'
 
 type TimelineItemProps = {
-  item: {
-    date: string
-    title: string
-    text: string
-  }
+  date: string
+  title: string
+  text: string
   index: number
 }
 
-export default function TimelineItem({ item, index }: TimelineItemProps) {
+export default function TimelineItem({
+  date,
+  title,
+  text,
+  index,
+}: TimelineItemProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -27,9 +30,9 @@ export default function TimelineItem({ item, index }: TimelineItemProps) {
 
       <div className="ml-5 sm:ml-10">
         <Card>
-          <Label Icon={FaRegCalendar} text={item.date} size="sm" />
-          <h3 className="text-xl font-semibold mt-7">{item.title}</h3>
-          <p className="text-text-muted text-lg mt-2">{item.text}</p>
+          <Label Icon={FaRegCalendar} text={date} size="sm" />
+          <h3 className="text-xl font-semibold mt-7">{title}</h3>
+          <p className="text-text-muted text-lg mt-2">{text}</p>
         </Card>
       </div>
     </motion.div>

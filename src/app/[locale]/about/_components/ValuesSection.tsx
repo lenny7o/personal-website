@@ -1,7 +1,7 @@
 import Container from '@/components/layout/Container'
 import Icon from '@/components/ui/Icon'
 import Card from '@/components/ui/Card'
-import { FaBookOpen, FaFeather, FaRegClock } from 'react-icons/fa6'
+import { FaBookOpen, FaFeather, FaScaleBalanced } from 'react-icons/fa6'
 import { useTranslations } from 'next-intl'
 
 export default function ValuesSection() {
@@ -28,7 +28,7 @@ export default function ValuesSection() {
             <p className="text-text-muted mt-2">{t('values.1.description')}</p>
           </Card>
           <Card>
-            <Icon Icon={FaRegClock} size={40} />
+            <Icon Icon={FaScaleBalanced} size={40} />
             <h3 className="text-xl font-semibold mt-5">{t('values.2.name')}</h3>
             <p className="text-text-muted mt-2">{t('values.2.description')}</p>
           </Card>

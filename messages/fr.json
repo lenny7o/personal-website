@@ -7,7 +7,7 @@
       "viewProject": "Voir le projet"
     },
     "StatusLabel": {
-      "text": "Ouvert à toutes propositions de projets"
+      "text": "Ouvert à de nouvelles collaborations"
     }
   },
   "Layout": {
@@ -25,7 +25,7 @@
     "HomePage": {
       "Hero": {
         "title": "Hey, moi c'est Lenny.",
-        "text": "Un jeune de 16 ans passionné par l'entrepreneuriat et la technologie. Ici, je partage mes projets, mon parcours et mes réflexions sur mon blog.",
+        "text": "Un jeune de 16 ans passionné par l'entrepreneuriat et la technologie, et obsédé par le développement personnel. Ici, je partage mes projets et documente mon parcours et mes réflexions.",
         "primaryButton": "Me contacter",
         "secondaryButton": "Voir mes projets"
       },
@@ -35,28 +35,28 @@
       },
       "About": {
         "title": "À propos de moi",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque pretium mauris, quis tristique tortor rhoncus id. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+        "text": "Depuis que je suis tout petit, j'ai toujours été fasciné par la technologie. L'entrepreneuriat est venu plus tard, mais il est rapidement devenu une passion tout aussi grande, car il me permet de concrétiser mes idées et de créer des choses qui ont un impact. Mais au-delà de la tech et de l'entrepreneuriat, je suis obsédé par le développement personnel. Je base toute ma vie sur l'amélioration continue.",
         "button": "En savoir plus"
       },
       "Contact": {
         "title": "Contactez-moi",
-        "text": "Vous avez un projet en tête ou vous voulez simplement discuter ? N'hésitez pas à me contacter !",
+        "text": "Vous avez un projet en tête ou vous souhaitez simplement échanger avec moi ? Je suis ouvert à toute proposition de collaboration ou de discussion !",
         "button": "M'envoyer un message",
         "faq1": {
-          "question": "Quels types de projets réalises-tu ?",
-          "answer": "Je travaille sur une variété de projets, allant du développement web à la création de contenu en passant par l'entrepreneuriat. Je suis toujours à la recherche de nouvelles idées et de nouveaux défis à relever."
+          "question": "Comment conciles-tu l'école et tes projets ?",
+          "answer": "C'est une question que l'on me pose souvent ! De ma passion pour le développement personnel, j'en tire une facsination pour l'organisation. J'essaie de consacrer du temps à mes projets en dehors de mes heures de cours et de travail scolaire, et je m'assure de rester organisé pour ne pas être submergé."
         },
         "faq2": {
-          "question": "Es-tu ouvert à des collaborations ?",
-          "answer": "Absolument ! Je suis toujours intéressé par des collaborations avec d'autres passionnés de technologie et d'entrepreneuriat. N'hésitez pas à me contacter si vous avez une idée de projet ou si vous souhaitez simplement discuter."
+          "question": "Pourquoi collaborer avec toi ?",
+          "answer": "Mon jeune âge est ma force : il me permet d'apporter une perspective fraîche et innovante à chaque projet. Je suis passionné, motivé et j'ai toujours l'énergie pour apprendre et relever de nouveaux défis. Je suis également très réactif."
         },
         "faq3": {
-          "question": "Comment puis-je te contacter ?",
-          "answer": "Vous pouvez me contacter par email à l'adresse contact@lennytc.me"
+          "question": "Avec quels outils travailles-tu ?",
+          "answer": "J'utilise une variété d'outils en fonction du projet sur lequel je travaille. Pour le développement web, j'utilise principalement Next.js et React, et concernant le design, j'aime utiliser Framer. Pour mon organisation, j'aime utiliser Notion. Et pour la communication, j'utilise souvent les mails ou Discord."
         },
         "faq4": {
-          "question": "Quel est ton processus de travail ?",
-          "answer": "Mon processus de travail commence par une phase de compréhension du projet et des besoins du client. Ensuite, je crée un plan détaillé et je commence le développement. Une fois le projet terminé, je le teste et je le livre au client."
+          "question": "Peut-on te contacter pour autre chose que le code ?",
+          "answer": "Absolument ! Je suis ouvert à tout échange autour de la tech, de l'entrepreneuriat, du développement personnel ou même de sujets plus légers comme les voyages ou la musique. J'aime rencontrer de nouvelles personnes."
         }
       },
       "Metadata": {
@@ -78,7 +78,7 @@
         "secondaryButton": "Découvrir mon parcours"
       },
       "Facts": {
-        "nameAndAge": "Lenny TESTU--CHARPENTIER, 16 ans",
+        "nameAndAge": "Lenny, 16 ans",
         "location": "Normandie, France",
         "skills": {
           "title": "Compétences",
@@ -108,18 +108,49 @@
           "music": "Musique"
         }
       },
+      "Journey": {
+        "title": "Mon parcours",
+        "steps": [
+          {
+            "date": "2017 (7 ans)",
+            "title": "L'immersion numérique",
+            "text": "Consommation intensive de jeux vidéo, parfois jusqu'à 14 heures par jour lorsque je n'allais pas à l'école. Une dépendance s'installe sans que je m'en aperçoive."
+          },
+          {
+            "date": "Juillet 2023 (13 ans)",
+            "title": "La prise de conscience",
+            "text": "Le déclic. Je ne suis pas fier de la direction que prend ma vie. Je réalise que je gaspille mon potentiel et je décide de changer radicalement."
+          },
+          {
+            "date": "Août 2023 (13 ans)",
+            "title": "La discipline par le sport",
+            "text": "Début de la musculation. Incapable de faire une seule pompe au départ, j'apprends la valeur de la répétition. La progression est lente, mais réelle : la discipline s'installe. En parallèle, je commence à lire et apprendre, et j'ai arrêté complètement les jeux vidéo."
+          },
+          {
+            "date": "Janvier 2024 (14 ans)",
+            "title": "La découverte du code",
+            "text": "Je passe de consommateur à créateur. J'apprends le HTML, CSS, JavaScript et PHP. Je comprends qu'avec un ordinateur et de la curiosité, les possibilités sont infinies."
+          },
+          {
+            "date": "Juin 2024 (14 ans)",
+            "title": "L'école de l'échec",
+            "text": "Je commence à m'intéresser à l'entrepreneuriat. Je débute mes premiers projets, mais beaucoup échouent et restent inachevés. Chaque erreur devient une leçon technique et stratégique. Je forge ma rigueur."
+          },
+          {
+            "date": "Juin 2025 (15 ans)",
+            "title": "L'évolution de l'approche",
+            "text": "Je prends conscience que j'ai pas réellement avancé et que je dois changer d'approche. Je décide d'arrêter de trop réfléchir, et de passer réellement à l'action."
+          }
+        ]
+      },
       "Now": {
         "title": "Et aujourd'hui ?",
-        "text": "Aujourd'hui, j'ai pris beaucoup en maturité et j'ai appris beaucoup de choses. Je suis actuellement en train de travailler sur plusieurs projets passionnants et d'apprendre de nouvelles compétences.",
-        "button": "Découvrir mes projets"
+        "text": "Aujourd'hui, j'ai développé plusieurs projets et je continue de construire. Je ne suis plus la même personne qu'il y a deux ans. Je sais que le talent est surestimé et que seule la régularité compte. Ce site est le témoin de cette évolution : je suis encore au début de mon voyage, mais je sais exactement où je vais.",
+        "button": "Découvrir mes projets actuels"
       },
       "Values": {
         "title": "Mes valeurs",
         "values": [
-          {
-            "name": "Passion",
-            "description": "Je suis passionné par la technologie et l'entrepreneuriat, et je m'investis pleinement dans tout ce que je fais."
-          },
           {
             "name": "Apprentissage continu",
             "description": "Je crois en l'importance d'apprendre constamment et de me développer pour atteindre mes objectifs."
@@ -127,15 +158,16 @@
           {
             "name": "Simplicité",
             "description": "J’aime les choses claires et efficaces, et je vais droit au but."
+          },
+          {
+            "name": "Honnêteté",
+            "description": "Je pense qu'il est important d'être honnête et transparent dans tout ce que je fais, que ce soit dans mes projets ou mon âge."
           }
         ]
       },
-      "Journey": {
-        "title": "Mon parcours"
-      },
       "Contact": {
         "title": "Contactez-moi",
-        "text": "Vous avez un projet en tête ou vous voulez simplement discuter ? N'hésitez pas à me contacter !",
+        "text": "Vous avez un projet en tête ou vous souhaitez simplement échanger avec moi ? Je suis ouvert à toute proposition de collaboration ou de discussion !",
         "button": "M'envoyer un message"
       },
       "Metadata": {
@@ -145,7 +177,7 @@
     },
     "Blog": {
       "title": "Cette page n'est pas disponible",
-      "text": "Le blog n'est pas encore disponible, mais il le sera bientôt !<br />En attendant, n'hésitez pas à consulter mes projets ou à me contacter.",
+      "text": "Le blog n'est pas encore disponible, mais il le sera bientôt !<br></br>En attendant, n'hésitez pas à consulter mes projets ou à me contacter.",
       "button": "Retourner à l'accueil",
       "Metadata": {
         "title": "Blog",

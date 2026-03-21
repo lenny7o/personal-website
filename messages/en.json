@@ -1,13 +1,13 @@
 {
   "UI": {
     "Logo": {
-      "alt": "Lenny TESTU--CHARPENTIER's Logo"
+      "alt": "Logo of Lenny TESTU--CHARPENTIER"
     },
     "ProjectCard": {
       "viewProject": "View Project"
     },
     "StatusLabel": {
-      "text": "Open to all project proposals"
+      "text": "Open to new collaborations"
     }
   },
   "Layout": {
@@ -18,45 +18,45 @@
       "contact": "Contact"
     },
     "Footer": {
-      "legal": "Legal"
+      "legal": "Legal Notice"
     }
   },
   "Pages": {
     "HomePage": {
       "Hero": {
         "title": "Hey, I'm Lenny.",
-        "text": "A 16-year-old passionate about entrepreneurship and technology. Welcome to my personal website where I share my projects, journey, and reflections.",
-        "primaryButton": "Contact me",
-        "secondaryButton": "See my projects"
+        "text": "A 16-year-old passionate about entrepreneurship and technology, and obsessed with personal development. Here, I share my projects and document my journey and reflections.",
+        "primaryButton": "Contact Me",
+        "secondaryButton": "View My Projects"
       },
       "Projects": {
         "title": "My Projects",
-        "button": "See all my projects"
+        "button": "View All My Projects"
       },
       "About": {
-        "title": "About me",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus scelerisque pretium mauris, quis tristique tortor rhoncus id. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
-        "button": "Learn more"
+        "title": "About Me",
+        "text": "Since I was little, I have always been fascinated by technology. Entrepreneurship came later, but it quickly became a passion just as big, as it allows me to materialize my ideas and create things that have an impact. But beyond tech and entrepreneurship, I am obsessed with personal development. I base my entire life on continuous improvement.",
+        "button": "Learn More"
       },
       "Contact": {
-        "title": "Contact me",
-        "text": "You have a project in mind or you just want to discuss? Don't hesitate to contact me!",
+        "title": "Contact Me",
+        "text": "You have a project in mind or you simply want to exchange with me? I am open to any collaboration or discussion proposal!",
         "button": "Send me a message",
         "faq1": {
-          "question": "What types of projects do you work on?",
-          "answer": "I work on a variety of projects, from web development to content creation, passing through entrepreneurship. I am always looking for new ideas and challenges to tackle."
+          "question": "How do you balance school and your projects?",
+          "answer": "This is a question I get asked often! From my passion for personal development, I derive a fascination for organization. I try to dedicate time to my projects outside of my school hours and academic work, and I make sure to stay organized so I don't get overwhelmed."
         },
         "faq2": {
-          "question": "Are you open to collaborations?",
-          "answer": "Absolutely! I am always interested in collaborating with other technology and entrepreneurship enthusiasts. Don't hesitate to contact me if you have a project idea or if you just want to discuss."
+          "question": "Why collaborate with you?",
+          "answer": "My young age is my strength: it allows me to bring a fresh and innovative perspective to each project. I am passionate, motivated and I always have the energy to learn and take on new challenges. I am also very responsive."
         },
         "faq3": {
-          "question": "How can I contact you?",
-          "answer": "You can contact me by email at contact@lennytc.me"
+          "question": "What tools do you use?",
+          "answer": "I use a variety of tools depending on the project I am working on. For web development, I mainly use Next.js and React, and for design, I like to use Framer. For my organization, I like to use Notion. And for communication, I often use emails or Discord."
         },
         "faq4": {
-          "question": "What is your workflow?",
-          "answer": "My workflow starts with a phase of understanding the project and the client's needs. Then, I create a detailed plan and start the development. Once the project is completed, I test it and deliver it to the client."
+          "question": "Can we contact you for something other than code?",
+          "answer": "Absolutely! I am open to any exchange around tech, entrepreneurship, personal development or even lighter topics like travel or music. I like meeting new people."
         }
       },
       "Metadata": {
@@ -65,20 +65,20 @@
       }
     },
     "Projects": {
-      "title": "All my projects",
+      "title": "All My Projects",
       "Metadata": {
         "title": "Projects",
-        "description": "Discover all projects by Lenny TESTU--CHARPENTIER"
+        "description": "Discover all projects of Lenny TESTU--CHARPENTIER"
       }
     },
     "About": {
       "Hero": {
-        "title": "About me",
-        "primaryButton": "Contact me",
-        "secondaryButton": "Discover my journey"
+        "title": "About Me",
+        "primaryButton": "Contact Me",
+        "secondaryButton": "Discover My Journey"
       },
       "Facts": {
-        "nameAndAge": "Lenny TESTU--CHARPENTIER, 16 years old",
+        "nameAndAge": "Lenny, 16 years old",
         "location": "Normandy, France",
         "skills": {
           "title": "Skills",
@@ -108,34 +108,66 @@
           "music": "Music"
         }
       },
+      "Journey": {
+        "title": "My journey",
+        "steps": [
+          {
+            "date": "2017 (7 years old)",
+            "title": "Digital immersion",
+            "text": "Intensive gaming consumption, sometimes up to 14 hours per day when I didn't go to school. A dependency develops without me realizing it."
+          },
+          {
+            "date": "July 2023 (13 years old)",
+            "title": "The awakening",
+            "text": "The moment of realization. I am not proud of the direction my life is taking. I realize that I am wasting my potential and decide to change radically."
+          },
+          {
+            "date": "August 2023 (13 years old)",
+            "title": "The discipline through sports",
+            "text": "Beginning of weight training. Unable to do a single push-up at the start, I learn the value of repetition. The progress is slow, but real: discipline takes hold. In parallel, I start reading and learning, and I have completely stopped playing video games."
+          },
+          {
+            "date": "January 2024 (14 years old)",
+            "title": "The discovery of coding",
+            "text": "I transition from consumer to creator. I learn HTML, CSS, JavaScript and PHP. I understand that with a computer and curiosity, the possibilities are infinite."
+          },
+          {
+            "date": "June 2024 (14 years old)",
+            "title": "The school of failure",
+            "text": "I start to be interested in entrepreneurship. I begin my first projects, but many fail and remain unfinished. Each mistake becomes a technical and strategic lesson. I forge my rigor."
+          },
+          {
+            "date": "June 2025 (15 years old)",
+            "title": "The evolution of the approach",
+            "text": "I become aware that I haven't really progressed and that I must change my approach. I decide to stop overthinking, and to actually take action."
+          }
+        ]
+      },
       "Now": {
-        "title": "And today ?",
-        "text": "Today, I've gained a lot of maturity and learned a lot of things. I am currently working on several exciting projects and learning new skills.",
-        "button": "Discover my projects"
+        "title": "And today?",
+        "text": "Today, I have developed several projects and I continue to build. I am not the same person I was two years ago. I know that talent is overrated and that only consistency matters. This site is a witness to this evolution: I am still at the beginning of my journey, but I know exactly where I am going.",
+        "button": "Discover my current projects"
       },
       "Values": {
         "title": "My values",
         "values": [
           {
-            "name": "Passion",
-            "description": "I am passionate about technology and entrepreneurship, and I fully invest in everything I do."
-          },
-          {
-            "name": "Continuous Learning",
+            "name": "Continuous learning",
             "description": "I believe in the importance of constantly learning and developing to achieve my goals."
           },
           {
             "name": "Simplicity",
             "description": "I like clear and efficient things, and I go straight to the point."
+          },
+          {
+            "name": "Honesty",
+            "description": "I believe it is important to be honest and transparent in everything I do, whether it is in my projects or my age."
           }
         ]
       },
-      "Journey": {
-        "title": "My journey"
-      },
       "Contact": {
         "title": "Contact me",
-        "text": "You have a project in mind or you just want to discuss? Don't hesitate to contact me!",
+        "text": "You have a project in mind or you simply want to exchange with me? I am open to any proposal of collaboration or discussion!",
         "button": "Send me a message"
       },
       "Metadata": {
@@ -145,11 +177,11 @@
     },
     "Blog": {
       "title": "This page is not available",
-      "text": "The blog is not yet available, but it will be soon !<br />In the meantime, feel free to check out my projects or contact me.",
+      "text": "The blog is not yet available, but it will be soon !<br></br>In the meantime, feel free to check out my projects or contact me.",
       "button": "Return to homepage",
       "Metadata": {
         "title": "Blog",
-        "description": "Discover the thoughts, advice and experiences of Lenny TESTU--CHARPENTIER through his blog."
+        "description": "Discover the reflections, tips and experiences of Lenny TESTU--CHARPENTIER through his blog."
       }
     },
     "NotFound": {
@@ -158,12 +190,12 @@
       "button": "Return to homepage"
     },
     "Error": {
-      "title": "Oops, an error occurred!",
+      "title": "Oups, an error occurred!",
       "button": "Try again"
     }
   },
   "DefaultMetadata": {
     "title": "Lenny TESTU--CHARPENTIER",
-    "description": "Welcome to the personal website of Lenny TESTU--CHARPENTIER, a young person passionate about entrepreneurship and technology. Discover his projects, his journey and how to contact him."
+    "description": "Welcome to the personal website of Lenny TESTU--CHARPENTIER, a young enthusiast of entrepreneurship and technology. Discover his projects, his journey and how to contact him."
   }
 }

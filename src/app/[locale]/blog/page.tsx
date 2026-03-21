@@ -28,7 +28,9 @@ export default function BlogPage() {
     <section className="min-h-screen flex items-center justify-center">
       <Container size="md" className="flex flex-col text-center items-center">
         <h1 className="text-3xl font-semibold text-center">{t('title')}</h1>
-        <p className="text-text-muted text-lg mt-7">{t('text')}</p>
+        <p className="text-text-muted text-lg mt-7">
+          {t.rich('text', { br: () => <br /> })}
+        </p>
         <Link href="/" className="mt-10">
           <Button>{t('button')}</Button>
         </Link>
