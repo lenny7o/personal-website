@@ -13,13 +13,23 @@ export default function Footer() {
         className="text-text-muted p-7 flex items-center justify-between"
       >
         <div className="flex items-center gap-1">
-          <Link href="/" className="p-2">
+          <Link
+            href="https://github.com/lenny7o"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2"
+          >
             <FiGithub size={20} />
           </Link>
-          <Link href="/" className="p-2">
+          <Link
+            href="https://www.linkedin.com/in/lenny-testu-charpentier-b539a0398/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2"
+          >
             <FiLinkedin size={20} />
           </Link>
-          <Link href="/" className="p-2">
+          <Link href="mailto:contact@lennytc.me" className="p-2">
             <FiMail size={20} />
           </Link>
         </div>

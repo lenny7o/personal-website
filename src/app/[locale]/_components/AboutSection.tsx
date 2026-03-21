@@ -27,13 +27,23 @@ export default function AboutSection() {
           <div>
             <h2 className="text-4xl font-semibold">{t('title')}</h2>
             <div className="flex items-center gap-1 mt-5 text-text-muted">
-              <Link href="/" className="p-2">
+              <Link
+                href="https://github.com/lenny7o"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2"
+              >
                 <FiGithub size={20} />
               </Link>
-              <Link href="/" className="p-2">
+              <Link
+                href="https://www.linkedin.com/in/lenny-testu-charpentier-b539a0398/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2"
+              >
                 <FiLinkedin size={20} />
               </Link>
-              <Link href="/" className="p-2">
+              <Link href="mailto:contact@lennytc.me" className="p-2">
                 <FiMail size={20} />
               </Link>
             </div>
