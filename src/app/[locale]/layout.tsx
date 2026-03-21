@@ -51,7 +51,7 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang="fr">
+    <html lang={locale}>
       <body className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider>
           <SmoothScroll>

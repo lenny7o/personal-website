@@ -20,6 +20,7 @@ export default function ProjectsSection() {
               key={project.id}
               name={project.name}
               image={project.image}
+              alt={project.alt}
               link={project.link}
             />
           ))}

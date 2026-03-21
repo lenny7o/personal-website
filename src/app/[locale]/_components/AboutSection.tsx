@@ -17,7 +17,7 @@ export default function AboutSection() {
         <div className="hidden sm:block! h-130 flex-1 rounded-2xl overflow-hidden border border-border">
           <Image
             src="/illustrations/aboutme.svg"
-            alt="À propos"
+            alt={t('alt')}
             width={300}
             height={500}
             className="w-full h-full"

@@ -10,6 +10,7 @@ export default function Icon({ Icon, size }: IconProps) {
     <Icon
       size={size}
       className="bg-primary text-text-inverse rounded-xl p-2 shadow-md"
+      aria-hidden="true"
     />
   )
 }
