@@ -17,10 +17,6 @@
     @apply flex flex-1 flex-col;
   }
 
-  strong {
-    @apply font-semibold;
-  }
-
   *:focus-visible {
     @apply outline-2 outline-offset-2 outline-primary;
   }

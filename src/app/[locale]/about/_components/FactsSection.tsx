@@ -30,11 +30,15 @@ export default function FactsSection() {
       >
         <Card className="sm:col-span-2">
           <Icon Icon={FaUser} size={40} />
-          <h3 className="text-xl font-semibold mt-3">{t('nameAndAge')}</h3>
+          <h3 className="text-xl font-semibold mt-3">
+            <strong>{t('nameAndAge')}</strong>
+          </h3>
         </Card>
         <Card>
           <Icon Icon={FaMapMarkerAlt} size={40} />
-          <h3 className="text-xl font-semibold mt-3">{t('location')}</h3>
+          <h3 className="text-xl font-semibold mt-3">
+            <strong>{t('location')}</strong>
+          </h3>
         </Card>
         <Card className="sm:col-span-2">
           <Icon Icon={FaTools} size={40} />

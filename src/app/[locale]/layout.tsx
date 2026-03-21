@@ -33,7 +33,7 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: '%s | LennyTC',
+      template: '%s | Lenny TESTU--CHARPENTIER',
       default: t('title'),
     },
     description: t('description'),
