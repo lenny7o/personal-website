@@ -35,6 +35,7 @@
       },
       "About": {
         "title": "À propos de moi",
+        "alt": "Illustration pour la section à propos de moi",
         "text": "Depuis que je suis tout petit, j'ai toujours été fasciné par la technologie. L'entrepreneuriat est venu plus tard, mais il est rapidement devenu une passion tout aussi grande, car il me permet de concrétiser mes idées et de créer des choses qui ont un impact. Mais au-delà de la tech et de l'entrepreneuriat, je suis obsédé par le développement personnel. Je base toute ma vie sur l'amélioration continue.",
         "button": "En savoir plus"
       },
@@ -78,7 +79,7 @@
         "secondaryButton": "Découvrir mon parcours"
       },
       "Facts": {
-        "nameAndAge": "Lenny, 16 ans",
+        "nameAndAge": "Lenny TESTU--CHARPENTIER, 16 ans",
         "location": "Normandie, France",
         "skills": {
           "title": "Compétences",
@@ -182,6 +183,65 @@
       "Metadata": {
         "title": "Blog",
         "description": "Découvrez les réflexions, les conseils et les expériences de Lenny TESTU--CHARPENTIER à travers son blog."
+      }
+    },
+    "Legal": {
+      "Hero": {
+        "title": "Mentions légales",
+        "text": "Conformément aux dispositions des articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., et à la Loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, les présentes mentions légales sont portées à la connaissance des utilisateurs du site <link>https://lennytc.me</link>."
+      },
+      "Infos": {
+        "title": "1. Informations légales",
+        "text": "Le site <link>https://lennytc.me</link> est un portfolio professionnel présentant les projets, compétences et propositions de collaborations de Lenny TESTU--CHARPENTIER.<br></br><br></br>Il est édité par Lenny TESTU--CHARPENTIER, personne physique résidant en France. Conformément à l'article 6-III-2 de la Loi n°2004-575 (LCEN), l'éditeur a choisi de conserver l'anonymat de son adresse personnelle. Ses coordonnées complètes ont été communiquées à l'hébergeur Vercel Inc."
+      },
+      "Editor": {
+        "title": "2. Directeur de la publication",
+        "text": "Le directeur de la publication du site <link>https://lennytc.me</link> est Lenny TESTU--CHARPENTIER, joignable à l'adresse email suivante : <mail>contact@lennytc.me</mail>."
+      },
+      "Host": {
+        "title": "3. Hébergeur du site",
+        "text": "Le site <link>https://lennytc.me</link> est hébergé par la société Vercel Inc., dont le siège social est situé : 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.<br></br><br></br>Vous pouvez contacter l'hébergeur par les moyens suivants :",
+        "phone": "Téléphone : {number}",
+        "website": "Site web : <link>https://vercel.com</link>",
+        "email": "Email : <link>privacy@vercel.com</link> (pour les questions de données personnelles)"
+      },
+      "Data": {
+        "title": "4. Données personnelles",
+        "text": "Les données collectées (nom, email) via les moyens de contact du site sont traitées exclusivement pour répondre à vos demandes de collaboration ou d'information. Elles sont conservées pour une durée maximale de 3 ans après le dernier contact.<br></br><br></br>Conformément à la Loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, les utilisateurs du site <link>https://lennytc.me</link> disposent d'un droit d'accès, de rectification et de suppression des données personnelles les concernant. Pour exercer ce droit, veuillez contacter Lenny TESTU--CHARPENTIER à l'adresse email suivante : <mail>contact@lennytc.me</mail>."
+      },
+      "Cookies": {
+        "title": "5. Cookies",
+        "text": "Le site <link>https://lennytc.me</link> n'utilise aucun cookie de traçage ou de profilage nécessitant un consentement préalable. Seuls des cookies techniques nécessaires au fonctionnement du site ou des mesures d'audience anonymisées peuvent être utilisés."
+      },
+      "Property": {
+        "title": "6. Propriété intellectuelle",
+        "text": "Tous les contenus présents sur le site <link>https://lennytc.me</link>, y compris les textes, images, logos, vidéos et autres éléments, sont protégés par les lois sur la propriété intellectuelle et sont la propriété exclusive de Lenny TESTU--CHARPENTIER ou de ses partenaires, sauf indication contraire. Toute reproduction, distribution, modification ou utilisation de ces contenus sans autorisation préalable est strictement interdite.",
+        "resourcesTitle": "Ressources tierces",
+        "resourcesIntro": "Ce site utilise des bibliothèques d'icônes externes dont les licences imposent l'attribution ou le maintien des notices de copyright :",
+        "mitIcons": {
+          "title": "Tabler Icons, Remix Icon et Feather Icons",
+          "text": "Ces ressources sont sous Licence MIT. Ces éléments peuvent être utilisés, copiés, modifiés et redistribués selon les termes de la licence MIT, sous réserve de conserver le copyright et la notice de licence :<br></br><br></br>Copyright (c) Paweł Kuna (Tabler Icons), Remix Design (Remix Icon), Cole Bemis (Feather Icons).<br></br><br></br><italic>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br></br>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br></br>THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</italic>"
+        },
+        "fontAwesome": {
+          "title": "Font Awesome",
+          "text": "Les icônes gratuites de Font Awesome sont utilisées sous licence Font Awesome Free License (CC BY 4.0 pour les icônes, SIL OFL 1.1 pour les polices de caractères et MIT pour le code)."
+        },
+        "brands": {
+          "title": "Icônes représentant des marques",
+          "text": "Certaines icônes représentent des logos ou marques déposées appartenant à des tiers (ex: GitHub, LinkedIn, etc.). Leur utilisation sur ce site est strictement illustrative et n'implique aucun partenariat."
+        }
+      },
+      "Responsibility": {
+        "title": "7. Responsabilité",
+        "text": "Lenny TESTU--CHARPENTIER ne saurait être tenu responsable des dommages directs ou indirects résultant de l'accès ou de l'utilisation du site <link>https://lennytc.me</link>, y compris les dommages causés par des virus ou autres éléments nuisibles."
+      },
+      "Law": {
+        "title": "8. Loi applicable",
+        "text": "Les présentes mentions légales sont régies par la loi française. Tout litige relatif à l'interprétation ou à l'exécution des présentes mentions légales sera soumis aux tribunaux compétents de Paris, France."
+      },
+      "Metadata": {
+        "title": "Mentions légales",
+        "description": "Découvrez les mentions légales du site de Lenny TESTU--CHARPENTIER, y compris les informations sur l'éditeur, l'hébergeur et les conditions d'utilisation."
       }
     },
     "NotFound": {

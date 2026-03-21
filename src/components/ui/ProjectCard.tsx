@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 type ProjectCardProps = {
   image: string
+  alt: string
   name: string
   link: string
 }
@@ -11,6 +12,7 @@ type ProjectCardProps = {
 export default function ProjectCard({
   image,
   name,
+  alt,
   link,
 }: Readonly<ProjectCardProps>) {
   const t = useTranslations('UI.ProjectCard')
@@ -23,7 +25,7 @@ export default function ProjectCard({
       >
         <Image
           src={image}
-          alt={name}
+          alt={alt}
           width={500}
           height={300}
           className="h-full w-full object-cover"

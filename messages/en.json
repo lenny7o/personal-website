@@ -35,6 +35,7 @@
       },
       "About": {
         "title": "About Me",
+        "alt": "Illustration for the about section",
         "text": "Since I was little, I have always been fascinated by technology. Entrepreneurship came later, but it quickly became a passion just as big, as it allows me to materialize my ideas and create things that have an impact. But beyond tech and entrepreneurship, I am obsessed with personal development. I base my entire life on continuous improvement.",
         "button": "Learn More"
       },
@@ -182,6 +183,65 @@
       "Metadata": {
         "title": "Blog",
         "description": "Discover the reflections, tips and experiences of Lenny TESTU--CHARPENTIER through his blog."
+      }
+    },
+    "Legal": {
+      "Hero": {
+        "title": "Legal Notice",
+        "text": "In accordance with the provisions of articles 6-III and 19 of the Law n°2004-575 of June 21, 2004 for Confidence in the Digital Economy, known as L.C.E.N., and the Law n°78-17 of January 6, 1978 relating to computer science, files and freedoms, the present legal notices are brought to the attention of users of the site <link>https://lennytc.me</link>."
+      },
+      "Infos": {
+        "title": "1. Legal Information",
+        "text": "The site <link>https://lennytc.me</link> is a professional portfolio presenting Lenny TESTU--CHARPENTIER's projects, skills and collaboration proposals.<br></br><br></br>It is edited by Lenny TESTU--CHARPENTIER, a physical person residing in France. In accordance with article 6-III-2 of the Law n°2004-575 (LCEN), the publisher has chosen to maintain the anonymity of his personal address. His complete contact information has been provided to the host Vercel Inc."
+      },
+      "Editor": {
+        "title": "2. Publication Director",
+        "text": "The publication director of the site <link>https://lennytc.me</link> is Lenny TESTU--CHARPENTIER, reachable at the following email address : <mail>contact@lennytc.me</mail>."
+      },
+      "Host": {
+        "title": "3. Site Host",
+        "text": "The site <link>https://lennytc.me</link> is hosted by the company Vercel Inc., whose main office is located at : 440 N Barranca Ave #4133, Covina, CA 91723, United States.<br></br><br></br>You can contact the host using the following means :",
+        "phone": "Phone : {number}",
+        "website": "Website : <link>https://vercel.com</link>",
+        "email": "Email : <link>privacy@vercel.com</link> (for personal data questions)"
+      },
+      "Data": {
+        "title": "4. Personal Data",
+        "text": "The data collected (name, email) via the site's contact methods is processed exclusively to respond to your collaboration or information requests. They are retained for a maximum duration of 3 years after the last contact.<br></br><br></br>In accordance with Law n°78-17 of January 6, 1978 relating to computer science, files and freedoms, users of the site <link>https://lennytc.me</link> have the right of access, rectification and deletion of their personal data. To exercise this right, please contact Lenny TESTU--CHARPENTIER at the following email address : <mail>contact@lennytc.me</mail>."
+      },
+      "Cookies": {
+        "title": "5. Cookies",
+        "text": "The site <link>https://lennytc.me</link> does not use any tracking or profiling cookies requiring prior consent. Only necessary technical cookies for the site's operation or anonymized audience measurements may be used."
+      },
+      "Property": {
+        "title": "6. Intellectual Property",
+        "text": "All content present on the site <link>https://lennytc.me</link>, including texts, images, logos, videos and other elements, are protected by intellectual property laws and are the exclusive property of Lenny TESTU--CHARPENTIER or his partners, unless otherwise indicated. Any reproduction, distribution, modification or use of these contents without prior authorization is strictly prohibited.",
+        "resourcesTitle": "Third-party resources",
+        "resourcesIntro": "This site uses external icon libraries whose licenses require attribution or maintenance of copyright notices :",
+        "mitIcons": {
+          "title": "Tabler Icons, Remix Icon and Feather Icons",
+          "text": "The icons from Tabler Icons, Remix Icon and Feather Icons are used under the MIT License, which allows free use, modification and distribution as long as the original copyright notice and license are included : :<br></br><br></br>Copyright (c) Paweł Kuna (Tabler Icons), Remix Design (Remix Icon), Cole Bemis (Feather Icons).<br></br><br></br><italic>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br></br>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.<br></br>THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</italic>"
+        },
+        "fontAwesome": {
+          "title": "Font Awesome",
+          "text": "The free icons from Font Awesome are used under the Font Awesome Free License (CC BY 4.0 for the icons, SIL OFL 1.1 for the fonts and MIT for the code)."
+        },
+        "brands": {
+          "title": "Icons representing third-party brands",
+          "text": "Some icons represent logos or trademarks belonging to third parties (ex: GitHub, LinkedIn, etc.). Their use on this site is strictly illustrative and does not imply any partnership."
+        }
+      },
+      "Responsibility": {
+        "title": "7. Responsibility",
+        "text": "Lenny TESTU--CHARPENTIER cannot be held responsible for any direct or indirect damages resulting from access to or use of the site <link>https://lennytc.me</link>, including damages caused by viruses or other harmful elements."
+      },
+      "Law": {
+        "title": "8. Applicable Law",
+        "text": "The present legal notices are governed by French law. Any dispute relating to the interpretation or execution of the present legal notices shall be submitted to the competent courts of Paris, France."
+      },
+      "Metadata": {
+        "title": "Legal Notice",
+        "description": "Discover the legal notice of Lenny TESTU--CHARPENTIER's website, including information about the publisher, host and usage conditions."
       }
     },
     "NotFound": {

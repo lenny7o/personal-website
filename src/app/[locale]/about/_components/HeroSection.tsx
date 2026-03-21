@@ -1,4 +1,5 @@
 import Container from '@/components/layout/Container'
+import AnimatedText from '@/components/ui/AnimatedText'
 import Button from '@/components/ui/Button'
 import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
@@ -10,7 +11,9 @@ export default function HeroSection() {
     <section id="about" className="flex items-center mt-60">
       <Container size="md">
         <h1 className="text-4xl sm:text-6xl font-semibold mt-4 text-center">
-          {t('title')}
+          <AnimatedText
+            content={[{ text: t('title'), order: 1, color: 'normal' }]}
+          />
         </h1>
         <div className="flex flex-col justify-center sm:flex-row sm:items-center gap-3 mt-10">
           <Link href="/#contact">

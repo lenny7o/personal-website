@@ -33,7 +33,7 @@ export async function generateMetadata({
 
   return {
     title: {
-      template: '%s | LennyTC',
+      template: '%s | Lenny TESTU--CHARPENTIER',
       default: t('title'),
     },
     description: t('description'),
@@ -51,7 +51,7 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang="fr">
+    <html lang={locale}>
       <body className={`${inter.variable} antialiased`}>
         <NextIntlClientProvider>
           <SmoothScroll>
