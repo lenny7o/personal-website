@@ -12,14 +12,11 @@ import {
   FiMusic,
   FiUsers,
 } from 'react-icons/fi'
-import { FaHeartCircleBolt } from 'react-icons/fa6'
+import { FaHeartCircleBolt, FaUser, FaStar } from 'react-icons/fa6'
 import Label from '@/components/ui/Label'
-import { TbRun } from 'react-icons/tb'
-import { MdOutlineTranslate } from 'react-icons/md'
-import { RiNextjsLine } from 'react-icons/ri'
-import { BsStars } from 'react-icons/bs'
-import { LuBrain } from 'react-icons/lu'
-import { FaMapMarkerAlt, FaTools, FaUser } from 'react-icons/fa'
+import { TbBrain, TbRun } from 'react-icons/tb'
+import { RiNextjsLine, RiTranslate2 } from 'react-icons/ri'
+import { FaMapMarkerAlt, FaTools } from 'react-icons/fa'
 import { useTranslations } from 'next-intl'
 
 export default function FactsSection() {
@@ -50,18 +47,18 @@ export default function FactsSection() {
           </div>
         </Card>
         <Card>
-          <Icon Icon={BsStars} size={40} />
+          <Icon Icon={FaStar} size={40} />
           <h3 className="text-xl font-semibold mt-3">
             {t('personality.title')}
           </h3>
           <div className="flex items-center gap-3 w-full mt-5 flex-wrap">
             <Label Icon={FiFeather} text={t('personality.calm')} />
-            <Label Icon={LuBrain} text={t('personality.serious')} />
+            <Label Icon={TbBrain} text={t('personality.serious')} />
             <Label Icon={FiUsers} text={t('personality.sociable')} />
           </div>
         </Card>
         <Card>
-          <Icon Icon={MdOutlineTranslate} size={40} />
+          <Icon Icon={RiTranslate2} size={40} />
           <h3 className="text-xl font-semibold mt-3">{t('languages.title')}</h3>
           <div className="flex items-center gap-3 w-full mt-5 flex-wrap">
             <Label Icon={FiGlobe} text={t('languages.FR')} />
