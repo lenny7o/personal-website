@@ -20,12 +20,12 @@ export default function FAQCard({ question, answer }: Readonly<FAQCardProps>) {
   }
 
   return (
-    <Card>
+    <Card className="px-5 py-4">
       <div
         className="flex items-center justify-between cursor-pointer w-full gap-4"
         onClick={toggleOpen}
       >
-        <h3 className="font-medium text-xl">{question}</h3>
+        <h3 className="font-medium text-lg">{question}</h3>
         <Icon
           className="shrink-0"
           initial={{ rotate: 0 }}
