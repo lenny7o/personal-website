@@ -5,6 +5,9 @@
     },
     "ProjectCard": {
       "viewProject": "Voir le projet"
+    },
+    "StatusLabel": {
+      "text": "Ouvert à toutes propositions de projets"
     }
   },
   "Layout": {
@@ -22,7 +25,7 @@
     "HomePage": {
       "Hero": {
         "title": "Hey, moi c'est Lenny.",
-        "text": "Un jeune de 16 ans passionné par l'entrepreneuriat et la technologie. Bienvenue sur mon site personnel où je partage mes projets, mon parcours et mes réflexions.",
+        "text": "Un jeune de 16 ans passionné par l'entrepreneuriat et la technologie. Ici, je partage mes projets, mon parcours et mes réflexions sur mon blog.",
         "primaryButton": "Me contacter",
         "secondaryButton": "Voir mes projets"
       },

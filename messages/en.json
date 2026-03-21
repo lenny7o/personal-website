@@ -5,6 +5,9 @@
     },
     "ProjectCard": {
       "viewProject": "View Project"
+    },
+    "StatusLabel": {
+      "text": "Open to all project proposals"
     }
   },
   "Layout": {
