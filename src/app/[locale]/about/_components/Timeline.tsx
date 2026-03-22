@@ -23,7 +23,7 @@ export default function Timeline() {
   return (
     <div ref={containerRef} className="relative w-full pt-20 pb-40 mt-15">
       <div className="absolute left-0 top-0 w-6 h-full flex justify-center">
-        <div className="w-1 h-full bg-[#414141]" />
+        <div className="w-1 h-full bg-timeline" />
         <motion.div
           style={{ scaleY }}
           className="absolute w-1 h-full bg-surface origin-top"

@@ -25,7 +25,7 @@ export default function PropertySection() {
         <p className="text-text-muted text-lg mt-4">{t('resourcesIntro')}</p>
 
         <div className="space-y-5 mt-7">
-          <div className="p-4 border border-border rounded-lg">
+          <div className="p-4 border border-border rounded-xl">
             <h4 className="font-semibold text-lg">{t('mitIcons.title')}</h4>
             <p className="text-text-muted mt-4">
               {t.rich('mitIcons.text', {
@@ -35,12 +35,12 @@ export default function PropertySection() {
             </p>
           </div>
 
-          <div className="p-4 border border-border rounded-lg">
+          <div className="p-4 border border-border rounded-xl">
             <h4 className="font-semibold text-lg">{t('fontAwesome.title')}</h4>
             <p className="text-text-muted mt-4">{t('fontAwesome.text')}</p>
           </div>
 
-          <div className="p-4 border border-border rounded-lg">
+          <div className="p-4 border border-border rounded-xl">
             <h4 className="font-semibold text-lg">{t('brands.title')}</h4>
             <p className="text-text-muted mt-4">{t('brands.text')}</p>
           </div>
