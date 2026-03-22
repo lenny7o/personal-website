@@ -17,10 +17,14 @@ const listVariants = {
 }
 
 type MobileMenuProps = {
+  setIsOpen: (open: boolean) => void
   links: { href: string; label: string }[]
 }
 
-export default function MobileMenu({ links }: Readonly<MobileMenuProps>) {
+export default function MobileMenu({
+  setIsOpen,
+  links,
+}: Readonly<MobileMenuProps>) {
   return (
     <motion.div
       className="w-full sm:hidden"
@@ -40,7 +44,7 @@ export default function MobileMenu({ links }: Readonly<MobileMenuProps>) {
         transition={{ duration: 0.3, ease: 'easeInOut' }}
       >
         {links.map((link, index) => (
-          <NavItem key={index} href={link.href}>
+          <NavItem key={index} href={link.href} setIsOpen={setIsOpen}>
             {link.label}
           </NavItem>
         ))}
