@@ -1,4 +1,5 @@
 import Container from '@/components/layout/Container'
+import { baseUrl } from '@/config'
 import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
 
@@ -12,12 +13,9 @@ export default function InfosSection() {
 
         <p className="text-text-muted text-lg mt-4">
           {t.rich('text', {
+            url: baseUrl,
             link: (chunks) => (
-              <Link
-                href="https://lennytc.me"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href={baseUrl} target="_blank" rel="noopener noreferrer">
                 {chunks}
               </Link>
             ),

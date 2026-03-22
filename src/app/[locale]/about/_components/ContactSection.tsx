@@ -2,6 +2,7 @@ import Container from '@/components/layout/Container'
 import Button from '@/components/ui/Button'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
+import { mail } from '@/config'
 
 export default function NowSection() {
   const t = useTranslations('Pages.About.Contact')
@@ -11,7 +12,7 @@ export default function NowSection() {
       <Container size="md" className="text-center">
         <h2 className="text-4xl font-semibold">{t('title')}</h2>
         <p className="text-lg text-text-muted mt-7">{t('text')}</p>
-        <Link href="mailto:contact@lennytc.me">
+        <Link href={`mailto:${mail}`}>
           <Button variant="primary" className="mt-10">
             {t('button')}
           </Button>

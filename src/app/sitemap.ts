@@ -1,8 +1,7 @@
 import type { MetadataRoute } from 'next'
+import { baseUrl } from '@/config'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://lennytc.me'
-
   return [
     {
       url: baseUrl,
