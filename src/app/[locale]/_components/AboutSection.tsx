@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { github, linkedin, mail } from '@/config'
 
 export default function AboutSection() {
   const t = useTranslations('Pages.HomePage.About')
@@ -14,7 +15,7 @@ export default function AboutSection() {
         size="lg"
         className="flex flex-col items-start sm:flex-row gap-10"
       >
-        <div className="hidden sm:block! h-130 flex-1 rounded-2xl overflow-hidden border border-border">
+        <div className="hidden sm:block! h-130 flex-1 rounded-2xl overflow-hidden border border-border dark:bg-primary">
           <Image
             src="/illustrations/aboutme.svg"
             alt={t('alt')}
@@ -28,7 +29,7 @@ export default function AboutSection() {
             <h2 className="text-4xl font-semibold">{t('title')}</h2>
             <div className="flex items-center gap-1 mt-5 text-text-muted">
               <Link
-                href="https://github.com/lenny7o"
+                href={github}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2"
@@ -36,14 +37,14 @@ export default function AboutSection() {
                 <FiGithub size={20} />
               </Link>
               <Link
-                href="https://www.linkedin.com/in/lenny-testu-charpentier-b539a0398/"
+                href={linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2"
               >
                 <FiLinkedin size={20} />
               </Link>
-              <Link href="mailto:contact@lennytc.me" className="p-2">
+              <Link href={`mailto:${mail}`} className="p-2">
                 <FiMail size={20} />
               </Link>
             </div>

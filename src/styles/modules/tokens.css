@@ -1,5 +1,6 @@
 @theme {
   --color-primary: oklch(20.5% 0 0);
+  --color-timeline: oklch(43.9% 0 0);
 
   --color-bg: oklch(97% 0 0);
   --color-surface: oklch(98.5% 0 0);

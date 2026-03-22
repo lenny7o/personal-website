@@ -1,6 +1,7 @@
 import Container from '@/components/layout/Container'
 import { Link } from '@/i18n/navigation'
 import { useTranslations } from 'next-intl'
+import { baseUrl } from '@/config'
 
 export default function CookiesSection() {
   const t = useTranslations('Pages.Legal.Cookies')
@@ -12,12 +13,9 @@ export default function CookiesSection() {
 
         <p className="text-text-muted text-lg mt-4">
           {t.rich('text', {
+            url: baseUrl,
             link: (chunks) => (
-              <Link
-                href="https://lennytc.me"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link href={baseUrl} target="_blank" rel="noopener noreferrer">
                 {chunks}
               </Link>
             ),

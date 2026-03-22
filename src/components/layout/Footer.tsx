@@ -2,6 +2,7 @@ import { Link } from '@/i18n/navigation'
 import Container from './Container'
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
 import { useTranslations } from 'next-intl'
+import { github, linkedin, mail } from '@/config'
 
 export default function Footer() {
   const t = useTranslations('Layout.Footer')
@@ -14,7 +15,7 @@ export default function Footer() {
       >
         <div className="flex items-center gap-1">
           <Link
-            href="https://github.com/lenny7o"
+            href={github}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2"
@@ -22,14 +23,14 @@ export default function Footer() {
             <FiGithub size={20} />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/lenny-testu-charpentier-b539a0398/"
+            href={linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2"
           >
             <FiLinkedin size={20} />
           </Link>
-          <Link href="mailto:contact@lennytc.me" className="p-2">
+          <Link href={`mailto:${mail}`} className="p-2">
             <FiMail size={20} />
           </Link>
         </div>
